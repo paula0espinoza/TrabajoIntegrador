@@ -1,9 +1,15 @@
-.container{
+.contenedor-1{
+    background-image: url(imagenes/negroimg.jpg);
+    height: 400px;
+    min-width: 600px;
     position: relative;
     display: inline-block;
+    text-align: center;
+    padding-top: 45px;
 }
 .imagen{
-    display: block;
+    width: 100%;
+    height: auto;
 
 }
 .button{
@@ -15,5 +21,6 @@
     background-color: #4CAF50;
     color: white; 
     border: none; 
+    border-radius: 5px;
     cursor: pointer;
 }
