@@ -1,21 +1,21 @@
 .contenedor-1{
     background-image: url(imagenes/negroimg.jpg);
-    height: 400px;
-    min-width: 600px;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
     position: relative;
     display: inline-block;
     text-align: center;
     padding-top: 45px;
 }
 .imagen{
-    width: 100%;
-    height: auto;
-
+max-width: 100%;
+height: auto;
 }
 .button{
     position: absolute; 
-    top: 50%; 
-    left: 50%; 
+    top: 90%; 
+    left: 20%; 
     transform: translate(-50%, -50%); 
     padding: 10px 20px; 
     background-color: #4CAF50;
@@ -24,3 +24,23 @@
     border-radius: 5px;
     cursor: pointer;
 }
+h2{
+    text-align: center;
+}
+.card1{
+    width: 300px;      /* Cambia el ancho de la card */
+    height: 400px;     /* Cambia la altura de la card */
+    padding: 20px;     /* Espaciado interno (opcional) */
+    border: 1px solid #ccc; /* Borde opcional */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra opcional */
+}
+.card2{
+    width: 300px;      /* Cambia el ancho de la card */
+    height: 400px;     /* Cambia la altura de la card */
+    padding: 20px;     /* Espaciado interno (opcional) */
+    border: 1px solid #ccc; /* Borde opcional */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra opcional */
+}
+
